@@ -15,6 +15,7 @@ public class Loginpage {
 
         // Open the login page URL
         driver.get(Websitelink);
+        System.out.println( "Chrome Driver Created" );
         driver.manage().window().maximize();
 
         loginPage(driver);

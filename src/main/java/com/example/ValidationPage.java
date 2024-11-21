@@ -3,8 +3,8 @@ package com.example;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Loginpage {
-    public static void main(String[] args) throws InterruptedException {
+public class ValidationPage {
+     public static void main(String[] args) throws InterruptedException {
         // Add Server Link Here
         String Websitelink = "https://Amazon.in/";
 
@@ -15,8 +15,9 @@ public class Loginpage {
 
         // Open the login page URL
         driver.get(Websitelink);
+        System.out.println("Driver Created");
         driver.manage().window().maximize();
-
+        System.out.println( "driver window maximize:" );
         loginPage(driver);
 
         driver.quit();
@@ -26,7 +27,6 @@ public class Loginpage {
     private static void loginPage(WebDriver driver) throws InterruptedException {
 
         System.out.println( "Hello World!" );
+        System.out.println( "Validation Of Login Page Start :" );
     }
 }
-
-

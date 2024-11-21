@@ -27,5 +27,6 @@ public class ValidationPage {
     private static void loginPage(WebDriver driver) throws InterruptedException {
 
         System.out.println( "Hello World!" );
+        System.out.println( "Validation Of Login Page Start :" );
     }
 }

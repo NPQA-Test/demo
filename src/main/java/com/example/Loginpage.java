@@ -15,6 +15,7 @@ public class Loginpage {
 
         // Open the login page URL
         driver.get(Websitelink);
+        System.out.println("Driver Created");
         driver.manage().window().maximize();
 
         loginPage(driver);
@@ -28,3 +29,5 @@ public class Loginpage {
         System.out.println( "Hello World!" );
     }
 }
+
+

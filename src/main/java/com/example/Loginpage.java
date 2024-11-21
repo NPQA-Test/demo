@@ -15,7 +15,6 @@ public class Loginpage {
 
         // Open the login page URL
         driver.get(Websitelink);
-        System.out.println( "Chrome Driver Created" );
         driver.manage().window().maximize();
 
         loginPage(driver);
@@ -27,7 +26,7 @@ public class Loginpage {
     private static void loginPage(WebDriver driver) throws InterruptedException {
 
         System.out.println( "Hello World!" );
-        System.out.println( "edit in chnage branch Hello World!" );
-
     }
 }
+
+

@@ -17,7 +17,7 @@ public class ValidationPage {
         driver.get(Websitelink);
         System.out.println("Driver Created");
         driver.manage().window().maximize();
-
+        System.out.println( "driver window maximize:" );
         loginPage(driver);
 
         driver.quit();
